@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Kalam:wght@300;400&display=swap");
+
+:root {
+    --primary-color: #f2c94c;
+}
+
+body,
+html {
+    font-family: "Kalam", cursive;
+    margin: 0;
+    /* padding: 0; */
+}
+
+textarea {
+    width: 80%;
+    height: 10vh;
+    display: block;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+#output {
+    border: 1px solid black;
+    height: 10vh;
+    width: 80%;
+    margin: 1rem;
+    padding: 1rem;
+}
