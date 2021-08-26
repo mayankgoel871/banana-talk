@@ -4,25 +4,64 @@
     --primary-color: #f2c94c;
 }
 
-body,
-html {
+body {
     font-family: "Kalam", cursive;
-    margin: 0;
-    /* padding: 0; */
+    display: flex;
+    flex-direction: column;
+    background-color: var(--primary-color);
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+header img {
+    width: 10%;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    justify-content: space-around;
 }
 
 textarea {
-    width: 80%;
+    width: 60%;
     height: 10vh;
     display: block;
     margin: 1rem;
     padding: 1rem;
 }
 
+#btn-translate {
+    font-weight: 500;
+    font-size: large;
+    max-width: 10vw;
+    max-height: 8vh;
+    margin-bottom: 10px;
+}
+
 #output {
-    border: 1px solid black;
+    background-color: #ffffff;
+    /* border: 1px solid black; */
     height: 10vh;
-    width: 80%;
+    width: 60%;
     margin: 1rem;
     padding: 1rem;
+}
+
+footer div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+}
+
+footer p {
+    max-width: 60%;
 }
